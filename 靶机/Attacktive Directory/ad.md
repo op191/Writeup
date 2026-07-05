@@ -404,10 +404,6 @@ smbclient //10.48.130.9/backup -U 'svc-admin%management2005'
 
 ![](images/2026-07-04-18-03-36-image.png)
 
-## 密码： backup@spookysec.local:backup2517860
-
-注意一下，这个密码是svc-admin的，但是有第二层意思：
-
 暴露 **backup 账户的完整凭据**，格式是：
 
 ```
@@ -417,7 +413,6 @@ smbclient //10.48.130.9/backup -U 'svc-admin%management2005'
 - `backup@spookysec.local` = backup 用户，属于 spookysec.local 域
 - `:` = 分隔符
 - `backup2517860` = 密码
-- ## 神了，一个解码解出两个用户的密码，66666😃
 
 ### 下一步可以直接登录3389的远程桌面服务，连上去之后，在 Windows 上按 `Win+R`，输入 `dsa.msc` 打开 Active Directory Users and Computers（ADUC），看一下当前用户和其他用户的权限,
 
@@ -441,8 +436,6 @@ smbclient //10.48.130.9/backup -U 'svc-admin%management2005'
 
 ```bash
 secretsdump.py spookysec.local/backup:'backup2517860'@10.48.130.9 -dc-ip 10.48.130.9
-
-
 ```
 
 #### 格式是：`用户名:RID:LM哈希:NTLM哈希:::`
