@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设置交互终端.md",
+                "file": "靶机/Attacktive Directory/ad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设置交互终端"
+              "title": "ad"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设置交互终端.md",
+                "file": "靶机/Attacktive Directory/ad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "设置交互终端 的反向链接列表"
+              "title": "ad 的反向链接列表"
             }
           },
           {
@@ -184,8 +184,9 @@
   },
   "active": "87897853052ced77",
   "lastOpenFiles": [
-    "内网穿透/ssh.md",
+    "Windows/ftp.md",
     "设置交互终端.md",
+    "内网穿透/ssh.md",
     "计算机网络.md",
     "反弹shell思路/管道反弹.md",
     "反弹shell思路/普通反弹.md",
@@ -196,7 +197,6 @@
     "权限提升方法/Windows/模拟攻击.md",
     "权限提升方法/Windows",
     "Windows/SMB Server/smb基础解析.md",
-    "Windows/ftp.md",
     "工具/nmap使用.md",
     "未命名",
     "2026-06-26.md",

